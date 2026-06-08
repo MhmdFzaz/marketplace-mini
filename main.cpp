@@ -36,6 +36,7 @@ int muat_akun() {
     getline(file, password[jml_akun])) {
         jml_akun++;
     }
+    
     file.close();
     return jml_akun;
 }
